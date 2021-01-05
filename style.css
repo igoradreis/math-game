@@ -1,0 +1,77 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 40px;
+}
+
+input {
+  border: 0;
+
+  font: 9rem arial;
+  text-align: center;
+}
+span {
+  font: 9rem arial;
+}
+
+.operacao {
+  text-align: center;
+}
+#numero1, #numero2 {
+  width: 200px;
+}
+
+.caixa-resultado {
+  border: 2px solid #090;
+  display: inline-block;
+}
+.caixa-resultado p {
+  background-color: #090;
+  color: #fff;
+}
+#resultado {
+  width: 350px;
+
+  color: #090;
+}
+
+.caixa-tempo {
+  border: 1px solid #f00;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  text-align: center;
+}
+.caixa-tempo p {
+  background-color: #f00;
+  color: #fff;
+}
+#tempo {
+  width: 200px;
+
+  color: #f00;
+}
+
+.caixa-acertos {
+  border: 1px solid #00f;
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  text-align: center;
+}
+.caixa-acertos p {
+  background-color: #00f;
+  color: #fff;
+}
+#acertos {
+  width: 275px;
+
+  color: #00f;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Tabuada</title>
+</head>
+
+<body>
+  <div class="operacao">
+    <input id="numero1" type="text" readonly>
+    
+    <span>&nbsp;x&nbsp;</span>
+    <input id="numero2" type="text" readonly>
+    
+    <span>&nbsp;=&nbsp;</span>
+
+    <div class="caixa-resultado">
+      <p>Resultado</p>
+      <input id="resultado" type="text" value="">
+    </div>
+  </div>
+  
+  <div class="caixa-tempo">
+    <p>Tempo</p>
+    <input id="tempo" type="text" value="0" readonly>
+  </div>
+
+  <div class="caixa-acertos">
+    <p>Acertos</p>
+    <input id="acertos" type="text" value="0" readonly>
+  </div>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
